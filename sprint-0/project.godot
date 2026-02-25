@@ -11,7 +11,11 @@ config_version=5
 [application]
 
 config/name="Sprint0"
-config/features=PackedStringArray("4.6", "Forward Plus")
+<<<<<<< HEAD
+=======
+run/main_scene="uid://otrfaos5lsg7"
+>>>>>>> e46a765ffe88e56db4c7a0e6fa6ebb6552a01175
+config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
