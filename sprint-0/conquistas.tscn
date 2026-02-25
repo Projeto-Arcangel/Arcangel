@@ -53,6 +53,8 @@ layout_mode = 2
 
 [node name="GridContainer" type="GridContainer" parent="VBoxContainer/ScrollContainer"]
 layout_mode = 2
+size_flags_stretch_ratio = 0.0
+columns = 3
 
 [node name="conq1" type="TextureRect" parent="."]
 layout_mode = 0
@@ -217,7 +219,7 @@ offset_bottom = 684.0
 texture = ExtResource("12_exk8w")
 metadata/_edit_group_ = true
 
-[node name="TextureButton" type="TextureButton" parent="."]
+[node name="btnVoltar" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 16.0
 offset_top = 24.0
