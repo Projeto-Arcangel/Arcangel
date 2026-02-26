@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b5f3f48xcu6fp"
-path="res://.godot/imported/Rectangle 833.png-e5d63ac8b6a95d1f4e85ad6ef216061b.ctex"
+uid="uid://c8ini5r3ox58q"
+path="res://.godot/imported/Grabber.png-628f0ec963922c5fc3ba562d1785ecf6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Rectangle 833.png"
-dest_files=["res://.godot/imported/Rectangle 833.png-e5d63ac8b6a95d1f4e85ad6ef216061b.ctex"]
+source_file="res://Grabber.png"
+dest_files=["res://.godot/imported/Grabber.png-628f0ec963922c5fc3ba562d1785ecf6.ctex"]
 
 [params]
 
