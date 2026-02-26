@@ -14,6 +14,7 @@ config/name="Sprint0"
 run/main_scene="uid://tvbdiiinkjhc"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+<<<<<<<HEADrun/main_scene="uid://tvbdiiinkjhc"
 
 [display]
 
