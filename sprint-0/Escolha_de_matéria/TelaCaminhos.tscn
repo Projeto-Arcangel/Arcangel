@@ -1,0 +1,87 @@
+[gd_scene load_steps=6 format=3 uid="uid://otrfaos5lsg7"]
+
+[ext_resource type="Script" uid="uid://cl5cb30gujipy" path="res://Escolha_de_matéria/tela_caminhos.gd" id="1_c6dbr"]
+[ext_resource type="Texture2D" uid="uid://b5f3f48xcu6fp" path="res://assets/Rectangle 833.png" id="2_eg8jj"]
+
+[sub_resource type="Theme" id="Theme_eg8jj"]
+
+[sub_resource type="Theme" id="Theme_c6dbr"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c6dbr"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = SubResource("Theme_eg8jj")
+script = ExtResource("1_c6dbr")
+
+[node name="Rectangle833" type="Sprite2D" parent="."]
+position = Vector2(204, 459)
+texture = ExtResource("2_eg8jj")
+
+[node name="Rectangle833" type="Sprite2D" parent="Rectangle833"]
+position = Vector2(2, -1)
+texture = ExtResource("2_eg8jj")
+
+[node name="ConteinerCentral" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 97.0
+offset_right = 357.0
+offset_bottom = 676.0
+
+[node name="EstruturaPrincipal" type="VBoxContainer" parent="ConteinerCentral"]
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+theme = SubResource("Theme_c6dbr")
+theme_override_constants/separation = 80
+
+[node name="EspaçadorTopo" type="Control" parent="ConteinerCentral/EstruturaPrincipal"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+
+[node name="Titulo" type="Label" parent="ConteinerCentral/EstruturaPrincipal"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 30
+text = "Qual caminho você 
+deseja trilhar?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ContainerOpcoes" type="VBoxContainer" parent="ConteinerCentral/EstruturaPrincipal"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_constants/separation = 20
+
+[node name="BotaoGeografia" type="Button" parent="ConteinerCentral/EstruturaPrincipal/ContainerOpcoes"]
+custom_minimum_size = Vector2(300, 50)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/normal = SubResource("StyleBoxFlat_c6dbr")
+text = "Geografia"
+
+[node name="BotaoFilosofia" type="Button" parent="ConteinerCentral/EstruturaPrincipal/ContainerOpcoes"]
+custom_minimum_size = Vector2(300, 50)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Filosofia"
+
+[node name="BotaoSociologia" type="Button" parent="ConteinerCentral/EstruturaPrincipal/ContainerOpcoes"]
+custom_minimum_size = Vector2(300, 50)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Sociologia"
+
+[node name="Botaohistoria" type="Button" parent="ConteinerCentral/EstruturaPrincipal/ContainerOpcoes"]
+custom_minimum_size = Vector2(300, 50)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Historia
+"

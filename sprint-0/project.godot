@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="Sprint0"
+<<<<<<< HEAD
 config/features=PackedStringArray("4.4", "Forward Plus")
+=======
+run/main_scene="uid://tvbdiiinkjhc"
+config/features=PackedStringArray("4.6", "Forward Plus")
+>>>>>>> 73924828cf579e7f2c6750be6830a650daee0b88
 config/icon="res://icon.svg"
+<<<<<<<HEADrun/main_scene="uid://tvbdiiinkjhc"
 
 [display]
 
@@ -27,3 +33,4 @@ window/handheld/orientation=1
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+renderer/rendering_method="mobile"
