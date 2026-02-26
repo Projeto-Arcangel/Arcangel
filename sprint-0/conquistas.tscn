@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://bqclun5ts2mjm"]
+[gd_scene format=3 uid="uid://bqclun5ts2mjm"]
 
 [ext_resource type="Texture2D" uid="uid://rghss048epkb" path="res://assets/conquistas/conq1.png" id="1_c51ou"]
 [ext_resource type="Texture2D" uid="uid://b1uwjixm0vm32" path="res://assets/conquistas/conq2.png" id="2_xvcr4"]
@@ -53,6 +53,8 @@ layout_mode = 2
 
 [node name="GridContainer" type="GridContainer" parent="VBoxContainer/ScrollContainer"]
 layout_mode = 2
+size_flags_stretch_ratio = 0.0
+columns = 3
 
 [node name="conq1" type="TextureRect" parent="."]
 layout_mode = 0
@@ -217,7 +219,7 @@ offset_bottom = 684.0
 texture = ExtResource("12_exk8w")
 metadata/_edit_group_ = true
 
-[node name="TextureButton" type="TextureButton" parent="."]
+[node name="btnVoltar" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 16.0
 offset_top = 24.0

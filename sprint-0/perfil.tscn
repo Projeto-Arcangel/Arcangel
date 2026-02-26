@@ -1,0 +1,72 @@
+[gd_scene load_steps=7 format=3 uid="uid://do5573t4qnfdb"]
+
+[ext_resource type="Texture2D" uid="uid://c1yay11o0732i" path="res://assets/Perfil/Rectangle-principal.png" id="1_h36xm"]
+[ext_resource type="Texture2D" uid="uid://dupn2ksogpsnm" path="res://assets/Perfil/Conquistas.png" id="2_ghpdd"]
+[ext_resource type="Script" uid="uid://d21d70yhrnedp" path="res://button.gd" id="3_w23nc"]
+[ext_resource type="Texture2D" uid="uid://1t5g7urm0nko" path="res://assets/Perfil/Perfil.png" id="4_t2gbq"]
+[ext_resource type="FontFile" uid="uid://bj0876om6jtoe" path="res://Nunito/static/Nunito-ExtraBold.ttf" id="5_5sabl"]
+[ext_resource type="Script" uid="uid://cdtiy5ny3qrxq" path="res://lbl_conquista_1.gd" id="6_ghpdd"]
+
+[node name="Perfil" type="Node2D"]
+
+[node name="Rectangle-principal" type="Sprite2D" parent="."]
+position = Vector2(209, 463.5)
+texture = ExtResource("1_h36xm")
+
+[node name="BtnConquista1" type="Button" parent="."]
+offset_left = 60.0
+offset_top = 388.0
+offset_right = 166.0
+offset_bottom = 491.0
+script = ExtResource("3_w23nc")
+
+[node name="Nome_Usuário" type="Label" parent="."]
+offset_left = 191.0
+offset_top = 190.0
+offset_right = 357.0
+offset_bottom = 224.0
+theme_override_fonts/font = ExtResource("5_5sabl")
+theme_override_font_sizes/font_size = 24
+text = "Nome_Usuário"
+
+[node name="2913a8Cd-e75e-4a89-bc6e-3Df3214924Ec" type="Sprite2D" parent="."]
+position = Vector2(212, 473)
+texture = ExtResource("2_ghpdd")
+
+[node name="Perfil" type="Sprite2D" parent="."]
+position = Vector2(210, 168.5)
+texture = ExtResource("4_t2gbq")
+
+[node name="Nível" type="Label" parent="."]
+offset_left = 223.0
+offset_top = 245.0
+offset_right = 285.0
+offset_bottom = 268.0
+text = "Nível 56"
+
+[node name="BtnVoltar" type="Button" parent="."]
+offset_left = 20.0
+offset_top = 49.0
+offset_right = 69.0
+offset_bottom = 91.0
+
+[node name="LineEditNome" type="LineEdit" parent="."]
+offset_left = 188.0
+offset_top = 179.0
+offset_right = 368.0
+offset_bottom = 235.0
+theme_override_fonts/font = ExtResource("5_5sabl")
+theme_override_font_sizes/font_size = 24
+text = "Nome_Usuário"
+
+[node name="LblConquista1" type="Label" parent="."]
+visible = false
+offset_left = 50.0
+offset_top = 486.0
+offset_right = 234.0
+offset_bottom = 509.0
+text = "Passarinho das galáxias"
+script = ExtResource("6_ghpdd")
+
+[connection signal="pressed" from="BtnConquista1" to="BtnConquista1" method="_on_pressed"]
+[connection signal="hidden" from="LblConquista1" to="LblConquista1" method="_on_hidden"]
