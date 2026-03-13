@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1004268647764",
+    "project_id": "casoeuerre-8g1y00",
+    "storage_bucket": "casoeuerre-8g1y00.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004268647764:android:a9d8c14596c133846a84c1",
+        "android_client_info": {
+          "package_name": "com.mycompany.arcangelooficial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004268647764-6eouss5sg9vvur7rho280137m9emaoad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.arcangelooficial",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1004268647764-tuab566gpq1bn57m6rm2ol1hrsp1ih34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhRLHN2sLMWfuvIjbnq72_tcHh9pBLT0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004268647764-tuab566gpq1bn57m6rm2ol1hrsp1ih34.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1004268647764-kfsb3a007ksmtp3b8q5mn23mnv1gsvvl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.arcangelooficial"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004268647764:android:a6f22435f7f8bf076a84c1",
+        "android_client_info": {
+          "package_name": "com.mycompany.casoeuerre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004268647764-m9d3gq8dkblpkkfmerfk83kjqkjgmpr3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.casoeuerre",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1004268647764-tuab566gpq1bn57m6rm2ol1hrsp1ih34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhRLHN2sLMWfuvIjbnq72_tcHh9pBLT0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004268647764-tuab566gpq1bn57m6rm2ol1hrsp1ih34.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1004268647764-kfsb3a007ksmtp3b8q5mn23mnv1gsvvl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.arcangelooficial"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
